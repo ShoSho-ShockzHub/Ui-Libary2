@@ -5,7 +5,10 @@
 --]]
 
 local ui_options = {
-	toggle_key = Enum.KeyCode.RightShift,
+	main_color = Color3.fromRGB(41, 74, 122),
+	min_size = Vector2.new(400, 300),
+	toggle_key = Enum.KeyCode.RightAlt,
+	can_resize = true,
 }
 
 do
